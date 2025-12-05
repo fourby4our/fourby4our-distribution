@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "jsx": "preserve",
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "strict": false,
+    "paths": {
+      "@/lib/*": ["lib/*"],
+      "@/app/*": ["app/*"]
+    },
+    "baseUrl": "."
+  },
+  "include": ["app", "lib", "next-env.d.ts"],
+  "exclude": ["node_modules"]
+}
