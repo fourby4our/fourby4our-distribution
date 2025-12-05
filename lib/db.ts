@@ -1,0 +1,1 @@
+export function getDB(env:any){ return env.DB; }
