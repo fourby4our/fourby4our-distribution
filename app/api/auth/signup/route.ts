@@ -1,5 +1,5 @@
-import { hashPassword } from '@/lib/auth';
-import { getDB } from '@/lib/db';
+import { getDB } from '../../../../lib/db';
+import { hashPassword } from '../../../../lib/auth';
 import { v4 as uuid } from 'uuid';
 export const runtime='edge';
 export async function POST(req,ctx){
