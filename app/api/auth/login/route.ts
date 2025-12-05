@@ -1,5 +1,5 @@
-import { hashPassword, generateToken } from '@/lib/auth';
-import { getDB } from '@/lib/db';
+import { getDB } from '../../../../lib/db';
+import { hashPassword, generateToken } from '../../../../lib/auth';
 export const runtime='edge';
 export async function POST(req,ctx){
  const db=getDB(ctx.env);
